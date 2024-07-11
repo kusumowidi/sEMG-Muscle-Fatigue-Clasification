@@ -18,6 +18,9 @@ Muscle fatigue during exercise is a common physiological occurrence that can red
 5.	The subject must remain focused, maintain a neutral facial expression, and avoid speaking, smiling, looking around, or moving their mouth.
 6.	The laptop should not be charged during data collection to avoid electrical noise.
 ## Data Collection:
+<p align="center">
+<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/Data%20Acquisition%20Method.png"  width="40%" height="35%"/>
+
 ### 1.	Fatigue Measurement:
 - Conduct Maximal Voluntary Contractions (MVCs) tests to measure force output during maximal voluntary effort.
 - Record maximal force output before, during, and after continuous instruction to identify muscle fatigue patterns.
