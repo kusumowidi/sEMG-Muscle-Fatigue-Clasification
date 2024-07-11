@@ -19,10 +19,10 @@ Muscle fatigue during exercise is a common physiological occurrence that can red
 6.	The laptop should not be charged during data collection to avoid electrical noise.
 ## Data Collection:
 ### 1.	Fatigue Measurement:
-o	Conduct Maximal Voluntary Contractions (MVCs) tests to measure force output during maximal voluntary effort.
-o	Record maximal force output before, during, and after continuous instruction to identify muscle fatigue patterns.
-o	Subjects grip a handgrip with maximum strength for 5 seconds (data not recorded), rest for 5 minutes, and then grip at 70% of the maximal force for subsequent tests.
+- Conduct Maximal Voluntary Contractions (MVCs) tests to measure force output during maximal voluntary effort.
+- Record maximal force output before, during, and after continuous instruction to identify muscle fatigue patterns.
+- Subjects grip a handgrip with maximum strength for 5 seconds (data not recorded), rest for 5 minutes, and then grip at 70% of the maximal force for subsequent tests.
 ### 2.	Fatigue and Non-Fatigue Data:
-o	Use OpenSignals software connected to BiTalino sensors to record EMG signals from the FDS muscle of the non-dominant hand.
-o	Follow the time sequence: stabilize (no movement), grip handgrip for 10 seconds at stable strength (threshold MVC), relax for 5 seconds, and grip again for 5 seconds at full strength to measure fatigue (MVCt). This sequence records non-fatigue data.
-o	To obtain fatigue data, the subject repeats the handgrip movement until MVCt > MVCref, noting the repetitions. If this condition is met, record the final data following the same procedure as for non-fatigue data.
+- Use OpenSignals software connected to BiTalino sensors to record EMG signals from the FDS muscle of the non-dominant hand.
+- Follow the time sequence: stabilize (no movement), grip handgrip for 10 seconds at stable strength (threshold MVC), relax for 5 seconds, and grip again for 5 seconds at full strength to measure fatigue (MVCt). This sequence records non-fatigue data.
+- To obtain fatigue data, the subject repeats the handgrip movement until MVCt > MVCref, noting the repetitions. If this condition is met, record the final data following the same procedure as for non-fatigue data.
