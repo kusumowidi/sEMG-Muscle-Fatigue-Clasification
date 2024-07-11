@@ -6,4 +6,5 @@ Muscle fatigue is characterized by a decline in maximal muscle strength during c
 
 # Problem Statement 
 This study aims to develop a classification method for Electromyography (EMG) signals using Convolutional Neural Networks (CNN) to distinguish between handgrip signals from normal patients and those experiencing muscle fatigue. EMG is commonly used in healthcare to record electrical activity from muscles during contraction. Here, the focus is on analyzing handgrip muscle signals, representing the muscle activity involved in gripping.
+
 Muscle fatigue during exercise is a common physiological occurrence that can reduce energy capacity and performance, increasing the risk of sports injuries. Thus, recognizing fatigue based on surface EMG signals plays a crucial role in sports training, rehabilitation, and movement identification. Early detection of muscle fatigue through EMG signal analysis has significant potential for monitoring patient health, especially in physical rehabilitation and sports. Accurate classification methods can help identify changes in muscle activity patterns related to fatigue, providing valuable insights for patient care and management.
