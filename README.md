@@ -29,3 +29,36 @@ Muscle fatigue during exercise is a common physiological occurrence that can red
 - Use OpenSignals software connected to BiTalino sensors to record EMG signals from the FDS muscle of the non-dominant hand.
 - Follow the time sequence: stabilize (no movement), grip handgrip for 10 seconds at stable strength (threshold MVC), relax for 5 seconds, and grip again for 5 seconds at full strength to measure fatigue (MVCt). This sequence records non-fatigue data.
 - To obtain fatigue data, the subject repeats the handgrip movement until MVCt > MVCref, noting the repetitions. If this condition is met, record the final data following the same procedure as for non-fatigue data.
+
+# Pre-Processing
+### Signal Preprocessing
+<p align="center">
+<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/STFT_Signal.png"  width="40%" height="35%"/>
+
+- Zero Baseline Correction
+- Absolute Signal
+- Data Normalization
+- Data Filtering
+- Convert Spectrogram Data to Short-Time Fourier Transform (STFT)
+  
+### Image Preprocessing
+- Data Augmentation
+<p align="center">
+<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/Image_Preprop.png"  width="40%" height="35%"/>
+
+
+# Model
+
+| Model          | Number of Parameters | Model Structure |
+|----------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Custom CNN** | 25.710.657           |<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/CNN_model.png"  width="40%" height="35%"/>            |
+| **ResNet50**   | 23.850.113           | <img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/ResNet50_model.png"  width="50%" height="50%"/>      |
+
+# Result
+
+|                       | Custom CNN           | ResNet50 |
+|-----------------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Accuracy**          |<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/CNN_Acc.png"  width="80%" height="80%"/>| <img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/ResNet50_Acc.png"  width="80%" height="80%"/>|
+| **Model Loss**        |<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/CNN_Loss.png"  width="80%" height="80%"/>|<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/ResNet50_Loss.png" width="80%" height="80%"/>|
+| **Confussion Matrix** |<img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/CNN_CF.png"  width="80%" height="80%"/>| <img src="https://github.com/kusumowidi/sEMG-Muscle-Fatigue-Clasification/blob/main/result/ResNet50_CF.png"  width="80%" height="80%"/>|
+
